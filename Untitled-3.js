@@ -20,14 +20,7 @@ console.log( 'unknown' );
 }  */
 
 if (val == 'a') { console.log( 'a' ) }
-  if (val == 'b') { console.log( 'others' )}
-  if (val == 'с') { console.log( 'others' )}
-  if (val == 'd') { console.log( 'others' )}
-  if (val == 'e') { console.log( 'others' )}
-    else {console.log( 'unknown' )};
+  if (val == 'b' || val == 'c' || val == 'd' || val == 'e') { console.log( 'others' )}
+      else {console.log( 'unknown' )};
 
-    //      либо
-
-    let val;
-    if (val == 'a') { console.log( 'a' ) }
-    else {console.log( 'unknown' )}; 
+ 
